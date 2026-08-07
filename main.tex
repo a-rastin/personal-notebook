@@ -11,4 +11,31 @@
 
 \begin{document}
 
+\frontmatter
+\FrontMatterNumbering
+
+\tableofcontents
+\clearpage
+
+\listoftables
+\clearpage
+
+\listoffigures
+\clearpage
+
+\mainmatter
+\MainMatterNumbering
+
+\input{index}
+
+\ChapterStart
+\chapter*{فهرست منابع و مأخذ}
+\phantomsection
+\begin{latin}
+  \small
+  \begin{sloppypar}
+    \printbibliography[heading=none]
+  \end{sloppypar}
+\end{latin}
+
 \end{document}
