@@ -11,3 +11,13 @@
 \usepackage[backend=biber,style=vancouver,citestyle=numeric-comp,sortcites=true,sorting=none,maxbibnames=99,giveninits=true,doi=true,url=true]{biblatex}
   \addbibresource{references.bib}
 \usepackage{xepersian}
+
+
+\renewcommand{\contentsname}{فهرست مطالب}
+\renewcommand{\listtablename}{فهرست جدول‌ها}
+\renewcommand{\listfigurename}{فهرست شکل‌ها و نمودارها}
+\renewcommand{\bibname}{فهرست منابع}
+
+
+\newcommand{\FrontMatterNumbering}{\pagenumbering{harfi}\pagestyle{thesis}}
+\newcommand{\MainMatterNumbering}{\pagenumbering{arabic}\pagestyle{thesis}}
